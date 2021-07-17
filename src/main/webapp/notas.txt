@@ -1,0 +1,5 @@
+- Também é possível anotar o relacionamento @OneToOne com o @JoinTable ao invés de
+apenas @JoinColumn
+
+- o Fetchtype padrão para coleções é o FetchType.LAZY, e para atributos que não
+são coleções é o FetchType.EAGER
